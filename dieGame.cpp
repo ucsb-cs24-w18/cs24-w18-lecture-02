@@ -53,6 +53,10 @@ int Player::getScore() const{
 }
 
 
+
+
+
+
 int main(){
 	Player p1, p2;
 	p1.setName("Diba");
