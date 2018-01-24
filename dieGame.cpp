@@ -70,7 +70,8 @@ int main(){
 		if(p1.getScore() == p2.getScore()){
 			cout<<"It's a Tie!"<<endl;
 		}else{
-			winner = p1.getScore()> p2.getScore()? p1.getName():p2.getName();
+			winner = p1.getScore()> p2.getScore()? 
+				 p1.getName():p2.getName();
 			cout<<winner<<" wins!!!"<<endl;
 		}
 		cout<<"Play again? (y/n) : ";
